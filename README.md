@@ -28,8 +28,9 @@ The RL agent interacts with a simulated environment to learn the best PID parame
    - **Verify Output**: Upon completion, ensure a file named `RL_gains.txt` has been created in your directory. This file contains the optimized $K_p, K_i, K_d$ values.
 ### Step 2: NN Training & Comparison (MATLAB) ###
 The MATLAB module picks up where Python left off. It imports the RL gains, trains a separate Neural Network, and compares both against a Passive system.
-1. Setup:Ensure `RL_gains.txt`, `AI_Comparison.m`, `TF.slx`, and all `.mat` data files are in the **same folder**.
-2. Run the Automation Script:
+1. Setup:
+   Ensure `RL_gains.txt`, `AI_Comparison.m`, `TF.slx`, and all `.mat` data files are in the **same folder**.
+3. Run the Automation Script:
    - Open MATLAB.
    - Open `AI_Comparison.m`.
    - Click **Run**.
