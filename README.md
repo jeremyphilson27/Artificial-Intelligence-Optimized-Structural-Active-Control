@@ -22,6 +22,9 @@ The RL agent interacts with a simulated environment to learn the best PID parame
    ```bash
    pip install stable-baselines3 gymnasium shimmy scipy notebook
    ```
+
+   Also you need to install `matlab.engine` dependency. You might check the [official documentation](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html) for the installation guide. Otherwise, you might not be able to run `pid_rl_optimization.ipynb` to do the RL training.
+   
 2. **Run the Notebook**:
    - Open `pid_rl_optimization.ipynb`.
    - Execute all cells to train the agent.
